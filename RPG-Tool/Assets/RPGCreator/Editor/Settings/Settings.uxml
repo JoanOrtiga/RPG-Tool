@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/RPGCreator/Editor/Settings/Settings.uss?fileID=7433441132597879392&amp;guid=6dcd9aaac7f94c842a3edc4fbde0fccd&amp;type=3#Settings" />
+    <ui:VisualElement style="justify-content: space-between; align-items: stretch; flex-direction: row; flex-shrink: 0; flex-basis: 0; flex-grow: 1; width: 100%; height: 100%;">
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="ListIndex" style="height: 100%; width: 211px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 0; border-right-width: 3px; border-top-width: 0; border-bottom-width: 0; overflow: visible; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; transform-origin: left top; flex-shrink: 0; flex-grow: 0; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;" />
+        <ui:VisualElement style="flex-direction: row; justify-content: flex-end; align-items: flex-start; width: auto; height: 100%; min-width: auto; min-height: auto; flex-grow: 1; flex-shrink: 1;">
+            <uie:ObjectField type="RPGCreator.InventorySystem.ItemDatabase, Assembly-CSharp" label="Inventory Data Base" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
